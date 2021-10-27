@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1943d8b9-06c6-4d78-8dc5-ef00e169ee51" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectId" id="1exNfrAklgFsEH0T9OKrFpDMyrs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IMG" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\RegForm\IMG" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\RegForm" />
+      <recent name="C:\xampp\htdocs\RegForm\IMG" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/RegForm/index.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1943d8b9-06c6-4d78-8dc5-ef00e169ee51" name="Default Changelist" comment="" />
+      <created>1595259389862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595259389862</updated>
+      <workItem from="1595259391483" duration="178000" />
+      <workItem from="1595300821136" duration="561000" />
+      <workItem from="1595301433850" duration="7722000" />
+      <workItem from="1595318505253" duration="2852000" />
+      <workItem from="1595327198752" duration="7773000" />
+      <workItem from="1595342474066" duration="3620000" />
+      <workItem from="1595388434902" duration="3912000" />
+      <workItem from="1595420462158" duration="4062000" />
+      <workItem from="1595429204949" duration="13498000" />
+      <workItem from="1595491323128" duration="4318000" />
+      <workItem from="1595506120473" duration="3330000" />
+      <workItem from="1595516006843" duration="4677000" />
+      <workItem from="1595565635929" duration="1266000" />
+      <workItem from="1595731364553" duration="1908000" />
+      <workItem from="1595838610611" duration="2457000" />
+      <workItem from="1595847208841" duration="4993000" />
+      <workItem from="1595854342482" duration="5863000" />
+      <workItem from="1595903580634" duration="660000" />
+      <workItem from="1595911272686" duration="1945000" />
+      <workItem from="1595921747935" duration="449000" />
+      <workItem from="1595925224010" duration="642000" />
+      <workItem from="1596028351906" duration="1244000" />
+      <workItem from="1596035819983" duration="11325000" />
+      <workItem from="1596083146736" duration="4951000" />
+      <workItem from="1596110743500" duration="745000" />
+      <workItem from="1596111585524" duration="3294000" />
+      <workItem from="1596216788597" duration="1645000" />
+      <workItem from="1596296025090" duration="1287000" />
+      <workItem from="1596428088252" duration="2736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="86" key="#CLI_Interpreters" timestamp="1595301225234">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="349" y="86" key="#CLI_Interpreters/0.0.1536.864@0.0.1536.864" timestamp="1595301225234" />
+    <state x="476" y="22" key="#PHP" timestamp="1595301243539">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="476" y="22" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1595301243539" />
+    <state x="361" y="90" key="#SQL_Dialects" timestamp="1595443107173">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="90" key="#SQL_Dialects/0.0.1536.864@0.0.1536.864" timestamp="1595443107173" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596433937314">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1596433937314" />
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596432784788">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1596432784788" />
+    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1596083359953">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1596083359953" />
+    <state x="394" y="65" key="SettingsEditor" timestamp="1596111749327">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="394" y="65" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1596111749327" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1596432753697">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1596432753697" />
+    <state x="510" y="74" key="refactoring.ChangeSignatureDialog" timestamp="1595493489981">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="510" y="74" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1595493489981" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1595424411891">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1595424411891" />
+    <state x="47" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595849683798">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="47" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1595849683798" />
+  </component>
+</project>
