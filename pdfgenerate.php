@@ -43,11 +43,11 @@ if(isset($_POST['genpdf']))
         $fatphotoname = $row['rollno']."-fatherphoto".".".$file_ext2;
         $motphotoname = $row['rollno']."-motherphoto".".".$file_ext3;
 
-        $pdf->Image("./pictures/$stuphotoname",50,50,30,);
+        $pdf->Image("http://admission.stjosephsmail.in/imageassets/$stuphotoname",50,50,30,30);
 
-        $pdf->Image("./pictures/$fatphotoname",90,50,30,);
+        $pdf->Image("http://admission.stjosephsmail.in/imageassets/$fatphotoname",90,50,30,30);
 
-        $pdf->Image("./pictures/$motphotoname",130,50,30,);
+        $pdf->Image("http://admission.stjosephsmail.in/imageassets/$motphotoname",130,50,30,30);
 
 
         $pdf->Cell($head_cell[0],10,'College Name',1,0,'L',false); // First header column
@@ -463,4 +463,3 @@ if(isset($_POST['genpdf']))
 
 $pdf->Output();
 ?>
-

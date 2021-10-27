@@ -150,15 +150,7 @@
         $gua2addho = $_POST['gua2AddHo'];
         $gua1addof = $_POST['gua1AddOf'];
         $gua2addof = $_POST['gua2AddOf'];
-        $studentphoto = $_POST['studentPhoto'];
-        $fatherphoto  = $_POST['fatherPhoto'];
-        $motherphoto = $_POST['motherPhoto'];
-        $aadharphoto = $_POST['aadhaarPhoto'];
-        $cc = $_POST['cc'];
-        $tenc = $_POST['tenC'];
-        $twec = $_POST['tweC'];
-        $allod = $_POST['allOd'];
-        $passc = $_POST['passC'];
+        
 
         $_SESSION['rollno'] = $_POST['rollno'];
 
@@ -174,18 +166,7 @@
         $passportphoto = $_FILES['passC']['name'];
 
 
-        $insert = "insert into images () values ('$img')";
 
-        if($scon->query($insert) === TRUE)
-        {
-            move_uploaded_file($_FILES['image']['tmp_name'], "pictures/$img");
-            echo "<script>alert('Uploaded')</script>";
-            
-        }
-        else
-        {
-            echo "<script>alert('Failed')</script>";
-        }
 
 
         $extsension = end(explode('.',$_FILES['studentPhoto']['name']));
@@ -227,32 +208,32 @@
 
     if ($scon->query($sql) === TRUE) {
 
-        move_uploaded_file($_FILES['studentPhoto']['tmp_name'], "pictures/$studentphoto");
-        rename ("C:\\xampp\htdocs\RegForm\pictures\\".$studentphoto , "C:\\xampp\htdocs\RegForm\pictures\\".$rollno."-studentphoto".".".$file_ext1);
+        move_uploaded_file($_FILES['studentPhoto']['tmp_name'], "./imageassets/$studentphoto");
+        rename ("./imageassets/".$studentphoto , "./imageassets/".$rollno."-studentphoto".".".$file_ext1);
         
-        move_uploaded_file($_FILES['fatherPhoto']['tmp_name'], "pictures/$fatherphoto");
-        rename ("C:\\xampp\htdocs\RegForm\pictures\\".$fatherphoto , "C:\\xampp\htdocs\RegForm\pictures\\".$rollno."-fatherphoto".".".$file_ext2);
+        move_uploaded_file($_FILES['fatherPhoto']['tmp_name'], "./imageassets/$fatherphoto");
+        rename ("./imageassets/".$fatherphoto , "./imageassets/".$rollno."-fatherphoto".".".$file_ext2);
         
-        move_uploaded_file($_FILES['motherPhoto']['tmp_name'], "pictures/$motherphoto");
-        rename ("C:\\xampp\htdocs\RegForm\pictures\\".$motherphoto , "C:\\xampp\htdocs\RegForm\pictures\\".$rollno."-motherphoto".".".$file_ext3);
+        move_uploaded_file($_FILES['motherPhoto']['tmp_name'], "./imageassets/$motherphoto");
+        rename ("./imageassets/".$motherphoto , "./imageassets/".$rollno."-motherphoto".".".$file_ext3);
         
-        move_uploaded_file($_FILES['aadhaarPhoto']['tmp_name'], "pictures/$aadharphoto");
-        rename ("C:\\xampp\htdocs\RegForm\pictures\\".$aadharphoto , "C:\\xampp\htdocs\RegForm\pictures\\".$rollno."-aadharphoto".".".$file_ext4);
+        move_uploaded_file($_FILES['aadhaarPhoto']['tmp_name'], "./imageassets/$aadharphoto");
+        rename ("./imageassets/".$aadharphoto , "./imageassets/".$rollno."-aadharphoto".".".$file_ext4);
         
-        move_uploaded_file($_FILES['cc']['tmp_name'], "pictures/$communitycert");
-        rename ("C:\\xampp\htdocs\RegForm\pictures\\".$communitycert , "C:\\xampp\htdocs\RegForm\pictures\\".$rollno."-communitycert".".".$file_ext5);
+        move_uploaded_file($_FILES['cc']['tmp_name'], "./imageassets/$communitycert");
+        rename ("./imageassets/".$communitycert , "./imageassets/".$rollno."-communitycert".".".$file_ext5);
         
-        move_uploaded_file($_FILES['tenC']['tmp_name'], "pictures/$tenthcert");
-        rename ("C:\\xampp\htdocs\RegForm\pictures\\".$tenthcert , "C:\\xampp\htdocs\RegForm\pictures\\".$rollno."-tenthcert".".".$file_ext6);
+        move_uploaded_file($_FILES['tenC']['tmp_name'], "./imageassets/$tenthcert");
+        rename ("./imageassets/".$tenthcert , "./imageassets/".$rollno."-tenthcert".".".$file_ext6);
         
-        move_uploaded_file($_FILES['tweC']['tmp_name'], "pictures/$twelcert");
-        rename ("C:\\xampp\htdocs\RegForm\pictures\\".$twelcert , "C:\\xampp\htdocs\RegForm\pictures\\".$rollno."-twelcert".".".$file_ext7);
+        move_uploaded_file($_FILES['tweC']['tmp_name'], "./imageassets/$twelcert");
+        rename ("./imageassets/".$twelcert , "./imageassets/".$rollno."-twelcert".".".$file_ext7);
         
-        move_uploaded_file($_FILES['allOd']['tmp_name'], "pictures/$allorder");
-        rename ("C:\\xampp\htdocs\RegForm\pictures\\".$allorder , "C:\\xampp\htdocs\RegForm\pictures\\".$rollno."-allorder".".".$file_ext8);
+        move_uploaded_file($_FILES['allOd']['tmp_name'], "./imageassets/$allorder");
+        rename ("./imageassets/".$allorder , "./imageassets/".$rollno."-allorder".".".$file_ext8);
         
-        move_uploaded_file($_FILES['passC']['tmp_name'], "pictures/$passportphoto");
-        rename ("C:\\xampp\htdocs\RegForm\pictures\\".$passportphoto , "C:\\xampp\htdocs\RegForm\pictures\\".$rollno."-passportphoto".".".$file_ext9);
+        move_uploaded_file($_FILES['passC']['tmp_name'], "./imageassets/$passportphoto");
+        rename ("./imageassets/".$passportphoto , "./imageassets/".$rollno."-passportphoto".".".$file_ext9);
         
         echo "New record created successfully";
         
@@ -291,7 +272,7 @@
             <h5 style="color: green;">Fill all details in <label style="color: darkred;">CAPITAL</label>.</h5>
             <h5 style="color: indianred;">If u want to use ' Symbol, use as \'</h5>
             <h5>Any Queries Contact: <br>
-                7358223992 <br>
+                9486170605 <br>
                 8122229363 <br>
                 9840009627</h5>
         </div>
@@ -1060,6 +1041,9 @@
             <div class="row justify-content-center">
                 <h3>Guardian Details</h3>
             </div>
+            <div class="row justify-content-center">
+                <h5 style="color: red;">If you are Day Scholar, fill all Guardian details as NA.</h5>
+            </div>
 
             <div class="row form-group">
                 <div class="col">
@@ -1155,8 +1139,10 @@
             <div class="row justify-content-center">
                 <h3>Photos/Certificate Upload</h3>
             </div>
-            <br>
-
+            <div class="row justify-content-center">
+                <h5 style="color: red;">Upload Photos/Certificate in JPEG format.</h5>
+            </div>
+        
             <div class="row form-group">
                 <div class="col">
                     <label for="studentPhoto">Student Photo</label><span class="required">*</span>
